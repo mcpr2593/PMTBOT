@@ -1,7 +1,7 @@
 {
-  "name": "RFP-BOT",
+  "name": "MCPR-BOT",
   "version": "10.0.0",
-  "description": "MCPR-BOT WHATSAPP",
+  "description": "BOT_WHATSAPP by MCPR",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -35,7 +35,7 @@
     "@open-wa/wa-automate",
     "@open-wa/wa-decrypt"
   ],
-  "author": "Restu Fadhilah",
+  "author": "Restu Fadhilah/Mas Cakra Panji Rimbawan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/restugbk/rfp-bot/issues"
