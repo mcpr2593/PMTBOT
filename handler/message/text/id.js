@@ -1,4 +1,37 @@
 exports.textMenu = (pushname, BotName) => {
+    return `
+  
+Halo, *${pushname}*! 👋️
+Terimakasih Telah menghubungi admin!✨
+*${BotName}*
+
+♻ Command / Perintah :
+   
+⚜ Ketik *1* Brosur Penerimaan Mahasiswa baru
+⚜ Ketik *2* Biaya Pendidikan
+⚜ Ketik *3* Beasiswa
+⚜ Ketik *4* Social Media
+⚜ Ketik *5* Tanya Admin
+
+🔰 -----[ *POWERED BY ${BotName}* ]----- 🔰`
+}
+
+
+Terimakasih Telah menghubungi admin
+*Politeknik Muhammadiyah Tegal*
+Ketik *1* Brosur Penerimaan Mahasiswa baru
+
+Ketik *2* Biaya Pendidikan
+
+Ketik *3* Beasiswa
+
+Ketik *4* Social Media
+
+Ketik *5* Tanya Admin
+
+
+
+exports.textbla = (pushname, BotName) => {
     return `🔰 -----[ *MENU ${BotName}* ]----- 🔰
   
 Hi, *${pushname}*! 👋️
