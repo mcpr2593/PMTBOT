@@ -62,7 +62,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
             return text.replace('@c.us', '')
         }
 
-        const  = ''
+        const prefix = '!' || '#' || '' || '/' || '$'
         body = (type === 'chat' && body.slice(prefix.length)) ? body : ((type === 'image' && caption) && caption.slice(prefix.length)) ? caption : ''
         const command = body.slice(1).trim().split(/ +/).shift().toLowerCase()
         const arg = body.trim().substring(body.indexOf(' ') + 1)

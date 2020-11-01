@@ -6,11 +6,11 @@ Terimakasih Telah menghubungi admin!✨
 
 ♻ Command / Perintah :
    
-⚜ Ketik *1* Brosur Penerimaan Mahasiswa baru
-⚜ Ketik *2* Biaya Pendidikan
-⚜ Ketik *3* Beasiswa
-⚜ Ketik *4* Social Media
-⚜ Ketik *5* Tanya Admin
+⚜ Ketik *#1* Brosur Penerimaan Mahasiswa baru
+⚜ Ketik *#2* Biaya Pendidikan
+⚜ Ketik *#3* Beasiswa
+⚜ Ketik *#4* Social Media
+⚜ Ketik *#5* Tanya Admin
 
 🔰 -----[ *POWERED BY MCPR* ]----- 🔰`
 }
