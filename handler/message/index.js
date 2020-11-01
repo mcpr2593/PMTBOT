@@ -161,7 +161,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
             break
         case 'getss':
             if (!isOwner) return await client.reply(from, '❌ Maaf, perintah ini hanya untuk Owner bot!', id)
-            const sesPic = await client.getSnapshot()
+            
             client.sendFile(from, 'pmt.jpg', '🍻 Nih gan screenshootnya.', id)
             break
         case 'listblock':
