@@ -1,6 +1,5 @@
 exports.textMenu = (pushname, BotName) => {
-    return `🔰 -----[ *MENU ${BotName}* ]----- 🔰
-  
+    return `  
 Hi, *${pushname}*! 👋️
 Terimakasih Telah menghubungi admin!✨
 *${BotName}*
