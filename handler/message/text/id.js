@@ -2,6 +2,38 @@ exports.textMenu = (pushname, BotName) => {
     return `🔰 -----[ *MENU ${BotName}* ]----- 🔰
   
 Hi, *${pushname}*! 👋️
+Terimakasih Telah menghubungi admin!✨
+*${BotName}*
+
+♻ Command / Perintah :
+   
+⚜ Ketik *1* Brosur Penerimaan Mahasiswa baru
+⚜ Ketik *2* Biaya Pendidikan
+⚜ Ketik *3* Beasiswa
+⚜ Ketik *4* Social Media
+⚜ Ketik *5* Tanya Admin
+
+🔰 -----[ *POWERED BY MCPR* ]----- 🔰`
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exports.textjjj = (pushname, BotName) => {
+    return `🔰 -----[ *MENU ${BotName}* ]----- 🔰
+  
+Hi, *${pushname}*! 👋️
 Berikut adalah beberapa fitur yang ada pada bot ini!✨
 
 ♻ Command / Perintah :
