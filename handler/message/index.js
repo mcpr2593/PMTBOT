@@ -162,7 +162,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         case 'getss':
             if (!isOwner) return await client.reply(from, '❌ Maaf, perintah ini hanya untuk Owner bot!', id)
             const sesPic = await client.getSnapshot()
-            client.sendFile(from, sesPic, 'session.png', '🍻 Nih gan screenshootnya.', id)
+            client.sendFile(from, 'pmt.jpg', '🍻 Nih gan screenshootnya.', id)
             break
         case 'listblock':
             let hih = `🔰 -----[ *BLOCK USERS BY ${BotName}* ]----- 🔰\n\n*Total:* ${blockNumber.length}\n\n`
