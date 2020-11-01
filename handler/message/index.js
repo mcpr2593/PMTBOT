@@ -51,7 +51,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
         const ownerNumber = '6285281822916@c.us' // Nomor Owner Bot
         const minMem = 200 // Minimal Member Grub
-        const BotName = 'RFP-BOT 😎' // Nama Bot Whatsapp
+        const BotName = 'Politeknik Muhammadiyah Tegal' // Nama Bot Whatsapp
         const isOwner = sender.id === ownerNumber
         const isBlocked = blockNumber.includes(sender.id) === true
 
